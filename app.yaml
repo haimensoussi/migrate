@@ -1,0 +1,11 @@
+command:
+  - streamlit
+  - run
+  - app.py
+  - --server.address
+  - 0.0.0.0
+  - --server.port
+  - '8000'
+env:
+  - name: LLM_ENDPOINT
+    value: 'REPLACE_WITH_YOUR_CHAT_ENDPOINT'

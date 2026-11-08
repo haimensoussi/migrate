@@ -1,0 +1,13 @@
+{
+  "assistant_name": "HORIZON CallLLM",
+  "source_platform": "HORIZON",
+  "target_platform": "DATABRICKS_APPS",
+  "system_prompt": "Tu es un assistant HORIZON spécialisé dans les plateformes Data et IA. Réponds en français de manière claire et précise.",
+  "llm": {
+    "provider": "databricks",
+    "endpoint_env": "LLM_ENDPOINT"
+  },
+  "actions": [
+    "CallLLM"
+  ]
+}
